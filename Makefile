@@ -13,6 +13,7 @@ OBJ_PATH=build/
 CPP_VERSION=20
 
 # Add -O3 for preformance
+# For debbing, refrain to using -O3
 CFLAGS := -O3 -Wall -g -I$(INC_DIR) -std=c++$(CPP_VERSION) -Wno-reorder-ctor
 LDFLAGS := -lraylib
 
